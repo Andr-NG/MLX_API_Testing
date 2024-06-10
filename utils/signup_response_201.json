@@ -1,0 +1,8 @@
+{
+    "status": {
+        "error_code": "",
+        "http_code": 201,
+        "message": "Successful signup"
+    },
+    "data": null
+}
