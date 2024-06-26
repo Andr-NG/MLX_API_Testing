@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.refresh_token import RefreshToken
+from services.PAM.pam_api_client.models.refresh_token import RefreshToken
 
 # TODO update the JSON string below
 json = "{}"

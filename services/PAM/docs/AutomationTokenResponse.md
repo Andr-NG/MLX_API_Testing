@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.automation_token_response import AutomationTokenResponse
+from services.PAM.pam_api_client.models.automation_token_response import AutomationTokenResponse
 
 # TODO update the JSON string below
 json = "{}"

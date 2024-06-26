@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from pam_api_client.models.item import Item
+from services.PAM.pam_api_client.models.item import Item
 from typing import Optional, Set
 from typing_extensions import Self
 

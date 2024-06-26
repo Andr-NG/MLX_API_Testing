@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from pam_api_client.models.settings import Settings
-from pam_api_client.models.user_creds import UserCreds
+from services.PAM.pam_api_client.models.settings import Settings
+from services.PAM.pam_api_client.models.user_creds import UserCreds
 from typing import Optional, Set
 from typing_extensions import Self
 

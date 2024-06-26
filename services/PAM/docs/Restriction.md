@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.restriction import Restriction
+from services.PAM.pam_api_client.models.restriction import Restriction
 
 # TODO update the JSON string below
 json = "{}"

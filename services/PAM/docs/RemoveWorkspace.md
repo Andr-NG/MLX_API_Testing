@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.remove_workspace import RemoveWorkspace
+from services.PAM.pam_api_client.models.remove_workspace import RemoveWorkspace
 
 # TODO update the JSON string below
 json = "{}"

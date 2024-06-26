@@ -25,11 +25,11 @@ from urllib.parse import quote
 from typing import Tuple, Optional, List, Dict, Union
 from pydantic import SecretStr
 
-from pam_api_client.configuration import Configuration
-from pam_api_client.api_response import ApiResponse, T as ApiResponseT
-import pam_api_client.models
-from pam_api_client import rest
-from pam_api_client.exceptions import (
+from services.PAM.pam_api_client.configuration import Configuration
+from services.PAM.pam_api_client.api_response import ApiResponse, T as ApiResponseT
+import services.PAM.pam_api_client.models
+from services.PAM.pam_api_client import rest
+from services.PAM.pam_api_client.exceptions import (
     ApiValueError,
     ApiException,
     BadRequestException,

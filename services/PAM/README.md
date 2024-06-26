@@ -25,7 +25,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import pam_api_client
+import services.PAM.pam_api_client
 ```
 
 ### Setuptools
@@ -39,7 +39,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import pam_api_client
+import services.PAM.pam_api_client
 ```
 
 ### Tests
@@ -52,8 +52,8 @@ Please follow the [installation procedure](#installation--usage) and then run th
 
 ```python
 
-import pam_api_client
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com

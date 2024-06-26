@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.workspace_key_response_data import WorkspaceKeyResponseData
+from services.PAM.pam_api_client.models.workspace_key_response_data import WorkspaceKeyResponseData
 
 # TODO update the JSON string below
 json = "{}"

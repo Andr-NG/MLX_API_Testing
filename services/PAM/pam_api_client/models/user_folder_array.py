@@ -21,7 +21,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List
 from typing_extensions import Annotated
-from pam_api_client.models.user_folder import UserFolder
+from services.PAM.pam_api_client.models.user_folder import UserFolder
 from typing import Optional, Set
 from typing_extensions import Self
 

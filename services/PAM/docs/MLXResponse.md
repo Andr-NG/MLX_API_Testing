@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
 
 # TODO update the JSON string below
 json = "{}"

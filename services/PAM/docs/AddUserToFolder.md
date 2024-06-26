@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.add_user_to_folder import AddUserToFolder
+from services.PAM.pam_api_client.models.add_user_to_folder import AddUserToFolder
 
 # TODO update the JSON string below
 json = "{}"

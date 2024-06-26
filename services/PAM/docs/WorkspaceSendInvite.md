@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.workspace_send_invite import WorkspaceSendInvite
+from services.PAM.pam_api_client.models.workspace_send_invite import WorkspaceSendInvite
 
 # TODO update the JSON string below
 json = "{}"

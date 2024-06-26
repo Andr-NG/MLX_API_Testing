@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.folder_user import FolderUser
+from services.PAM.pam_api_client.models.folder_user import FolderUser
 
 # TODO update the JSON string below
 json = "{}"

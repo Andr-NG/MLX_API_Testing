@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.billing_url import BillingURL
+from services.PAM.pam_api_client.models.billing_url import BillingURL
 
 # TODO update the JSON string below
 json = "{}"

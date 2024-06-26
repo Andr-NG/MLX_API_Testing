@@ -1,5 +1,5 @@
 import os
-import pam_api_client as pam
+import services.PAM.pam_api_client as pam
 from dotenv import load_dotenv
 
 
