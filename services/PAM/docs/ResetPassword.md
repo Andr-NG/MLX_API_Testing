@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.reset_password import ResetPassword
+from services.PAM.pam_api_client.models.reset_password import ResetPassword
 
 # TODO update the JSON string below
 json = "{}"

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.user_workspace_array import UserWorkspaceArray
+from services.PAM.pam_api_client.models.user_workspace_array import UserWorkspaceArray
 
 # TODO update the JSON string below
 json = "{}"

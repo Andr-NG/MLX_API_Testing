@@ -57,10 +57,10 @@ Add a new user into folder
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.add_user_to_folder import AddUserToFolder
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.add_user_to_folder import AddUserToFolder
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -126,10 +126,10 @@ Remove an user from folder
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.remove_user_from_folder import RemoveUserFromFolder
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.remove_user_from_folder import RemoveUserFromFolder
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -195,9 +195,9 @@ Get list of users for folder
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.folder_user_array_response import FolderUserArrayResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.folder_user_array_response import FolderUserArrayResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -267,9 +267,9 @@ Get workspace restriction which is currently in use
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.get_restriction import GetRestriction
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.get_restriction import GetRestriction
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -331,10 +331,10 @@ SSO Signin
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.sso_response import SSOResponse
-from pam_api_client.models.user_creds import UserCreds
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.sso_response import SSOResponse
+from services.PAM.pam_api_client.models.user_creds import UserCreds
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -400,10 +400,10 @@ Set user settings
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.settings import Settings
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.settings import Settings
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -469,10 +469,10 @@ Change password of user
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.change_password import ChangePassword
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.change_password import ChangePassword
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -538,10 +538,10 @@ Forgot password of user
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.forgot_password import ForgotPassword
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.forgot_password import ForgotPassword
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -607,9 +607,9 @@ Get billing url
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.billing_url_response import BillingURLResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.billing_url_response import BillingURLResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -671,9 +671,9 @@ Return user identity for user
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.user_identity_response import UserIdentityResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.user_identity_response import UserIdentityResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -735,10 +735,10 @@ Launcher signin
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.launcher_signin_request import LauncherSigninRequest
-from pam_api_client.models.signin_response import SigninResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.launcher_signin_request import LauncherSigninRequest
+from services.PAM.pam_api_client.models.signin_response import SigninResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -804,10 +804,10 @@ Update JWT token
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.refresh_token import RefreshToken
-from pam_api_client.models.signin_response import SigninResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.refresh_token import RefreshToken
+from services.PAM.pam_api_client.models.signin_response import SigninResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -873,9 +873,9 @@ Resend Verification
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -937,10 +937,10 @@ Reset password of user
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.reset_password import ResetPassword
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.reset_password import ResetPassword
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1006,10 +1006,10 @@ Revoking user tokens
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.revoke_token_request import RevokeTokenRequest
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.revoke_token_request import RevokeTokenRequest
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1075,9 +1075,9 @@ Get user settings
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.user_settings_response import UserSettingsResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.user_settings_response import UserSettingsResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1139,10 +1139,10 @@ Login into mlx
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.signin_response import SigninResponse
-from pam_api_client.models.user_creds import UserCreds
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.signin_response import SigninResponse
+from services.PAM.pam_api_client.models.user_creds import UserCreds
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1208,10 +1208,10 @@ Add a new user
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.complex_signup import ComplexSignup
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.complex_signup import ComplexSignup
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1277,9 +1277,9 @@ Return all active tokens with expiration date that belongs to account
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.token_list_response import TokenListResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.token_list_response import TokenListResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1341,9 +1341,9 @@ Email Address Verification API
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1409,9 +1409,9 @@ Get list of workspaces for the user
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.user_workspace_array_response import UserWorkspaceArrayResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.user_workspace_array_response import UserWorkspaceArrayResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1473,10 +1473,10 @@ Add a new user into workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.add_user_to_workspace import AddUserToWorkspace
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.add_user_to_workspace import AddUserToWorkspace
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1542,9 +1542,9 @@ Get automation token
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.automation_token_response import AutomationTokenResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.automation_token_response import AutomationTokenResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1610,10 +1610,10 @@ Change role of user in workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.add_user_to_workspace import AddUserToWorkspace
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.add_user_to_workspace import AddUserToWorkspace
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1679,9 +1679,9 @@ Create new workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.create_single_object_response import CreateSingleObjectResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.create_single_object_response import CreateSingleObjectResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1743,10 +1743,10 @@ Add a new folder
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.create_folder import CreateFolder
-from pam_api_client.models.create_single_object_response import CreateSingleObjectResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.create_folder import CreateFolder
+from services.PAM.pam_api_client.models.create_single_object_response import CreateSingleObjectResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1812,9 +1812,9 @@ Get list of available folders by workspace ID
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.user_folder_array_response import UserFolderArrayResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.user_folder_array_response import UserFolderArrayResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1876,9 +1876,9 @@ Get list of available folders by workspace ID and user email
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.user_folder_array_response import UserFolderArrayResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.user_folder_array_response import UserFolderArrayResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -1944,10 +1944,10 @@ Get base64 encodded workspace data encryption currently active key
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.workspace_get_key import WorkspaceGetKey
-from pam_api_client.models.workspace_key_response import WorkspaceKeyResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.workspace_get_key import WorkspaceGetKey
+from services.PAM.pam_api_client.models.workspace_key_response import WorkspaceKeyResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2013,9 +2013,9 @@ Workspace invitations
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.workspace_invitations_array_response import WorkspaceInvitationsArrayResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.workspace_invitations_array_response import WorkspaceInvitationsArrayResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2083,9 +2083,9 @@ Workspace invitation verification
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2157,10 +2157,10 @@ Leave workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.leave_workspace import LeaveWorkspace
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.leave_workspace import LeaveWorkspace
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2226,10 +2226,10 @@ Remove workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.remove_workspace import RemoveWorkspace
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.remove_workspace import RemoveWorkspace
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2295,10 +2295,10 @@ Remove workspace folders
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.remove_folder import RemoveFolder
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.remove_folder import RemoveFolder
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2364,10 +2364,10 @@ Remove an user from workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.remove_user_from_workspace import RemoveUserFromWorkspace
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.remove_user_from_workspace import RemoveUserFromWorkspace
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2433,10 +2433,10 @@ Send invitation to join workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.workspace_send_invite import WorkspaceSendInvite
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.workspace_send_invite import WorkspaceSendInvite
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2502,9 +2502,9 @@ Get basic statistics for workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.workspace_stats_response import WorkspaceStatsResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.workspace_stats_response import WorkspaceStatsResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2566,10 +2566,10 @@ Change the folder
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.mlx_response import MLXResponse
-from pam_api_client.models.update_folder import UpdateFolder
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.mlx_response import MLXResponse
+from services.PAM.pam_api_client.models.update_folder import UpdateFolder
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2635,9 +2635,9 @@ Get user balance for selected workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.workspace_user_balance_response import WorkspaceUserBalanceResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.workspace_user_balance_response import WorkspaceUserBalanceResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com
@@ -2699,9 +2699,9 @@ Get list of users for workspace
 
 
 ```python
-import pam_api_client
-from pam_api_client.models.workspace_user_array_response import WorkspaceUserArrayResponse
-from pam_api_client.rest import ApiException
+import services.PAM.pam_api_client
+from services.PAM.pam_api_client.models.workspace_user_array_response import WorkspaceUserArrayResponse
+from services.PAM.pam_api_client.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to https://api.multilogin.com

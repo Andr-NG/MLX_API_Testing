@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.automation_token import AutomationToken
+from services.PAM.pam_api_client.models.automation_token import AutomationToken
 
 # TODO update the JSON string below
 json = "{}"

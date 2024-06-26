@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.create_single_object_response import CreateSingleObjectResponse
+from services.PAM.pam_api_client.models.create_single_object_response import CreateSingleObjectResponse
 
 # TODO update the JSON string below
 json = "{}"

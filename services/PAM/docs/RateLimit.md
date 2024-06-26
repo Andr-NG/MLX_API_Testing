@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.rate_limit import RateLimit
+from services.PAM.pam_api_client.models.rate_limit import RateLimit
 
 # TODO update the JSON string below
 json = "{}"

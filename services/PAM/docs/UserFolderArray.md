@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.user_folder_array import UserFolderArray
+from services.PAM.pam_api_client.models.user_folder_array import UserFolderArray
 
 # TODO update the JSON string below
 json = "{}"

@@ -21,7 +21,7 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List
 from typing_extensions import Annotated
-from pam_api_client.models.workspace_invitation import WorkspaceInvitation
+from services.PAM.pam_api_client.models.workspace_invitation import WorkspaceInvitation
 from typing import Optional, Set
 from typing_extensions import Self
 

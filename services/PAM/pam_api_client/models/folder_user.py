@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List
-from pam_api_client.models.user_folder_role import UserFolderRole
+from services.PAM.pam_api_client.models.user_folder_role import UserFolderRole
 from typing import Optional, Set
 from typing_extensions import Self
 

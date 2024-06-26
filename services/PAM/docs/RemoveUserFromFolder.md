@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.remove_user_from_folder import RemoveUserFromFolder
+from services.PAM.pam_api_client.models.remove_user_from_folder import RemoveUserFromFolder
 
 # TODO update the JSON string below
 json = "{}"

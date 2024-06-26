@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.create_single_object import CreateSingleObject
+from services.PAM.pam_api_client.models.create_single_object import CreateSingleObject
 
 # TODO update the JSON string below
 json = "{}"

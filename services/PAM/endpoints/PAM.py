@@ -1,4 +1,4 @@
-import pam_api_client as pam
+import services.PAM.pam_api_client as pam
 import json
 from services.PAM.endpoints.base_endpoint import BaseEndpoint
 

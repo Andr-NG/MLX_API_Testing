@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.launcher_signin_request import LauncherSigninRequest
+from services.PAM.pam_api_client.models.launcher_signin_request import LauncherSigninRequest
 
 # TODO update the JSON string below
 json = "{}"

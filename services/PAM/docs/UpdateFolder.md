@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.update_folder import UpdateFolder
+from services.PAM.pam_api_client.models.update_folder import UpdateFolder
 
 # TODO update the JSON string below
 json = "{}"

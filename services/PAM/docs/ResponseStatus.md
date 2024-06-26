@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.response_status import ResponseStatus
+from services.PAM.pam_api_client.models.response_status import ResponseStatus
 
 # TODO update the JSON string below
 json = "{}"

@@ -21,8 +21,8 @@ import json
 from pydantic import BaseModel, ConfigDict, Field, StrictBool, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
 from typing_extensions import Annotated
-from pam_api_client.models.browser_type import BrowserType
-from pam_api_client.models.rate_limit import RateLimit
+from services.PAM.pam_api_client.models.browser_type import BrowserType
+from services.PAM.pam_api_client.models.rate_limit import RateLimit
 from typing import Optional, Set
 from typing_extensions import Self
 

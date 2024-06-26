@@ -2,7 +2,11 @@ import json
 import os
 
 # Path to the JSON file
-USER_DATA_PATH = r"D:\MLX\Projects\MLX_API\test_data\user_data.json"
+# Получаем путь до директории проекта
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../.'))
+
+# Создаем универсальный путь к файлу
+USER_DATA_PATH = os.path.join(project_root, 'test_data', 'user_data.json')
 
 
 def save_token(content):

@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from pam_api_client.models.folder_user_array import FolderUserArray
-from pam_api_client.models.response_status import ResponseStatus
+from services.PAM.pam_api_client.models.folder_user_array import FolderUserArray
+from services.PAM.pam_api_client.models.response_status import ResponseStatus
 from typing import Optional, Set
 from typing_extensions import Self
 

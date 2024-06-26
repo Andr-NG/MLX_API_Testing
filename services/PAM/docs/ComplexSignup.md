@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from pam_api_client.models.complex_signup import ComplexSignup
+from services.PAM.pam_api_client.models.complex_signup import ComplexSignup
 
 # TODO update the JSON string below
 json = "{}"
